@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.time-container{
+    display: inline-block;
+  position: relative;
+    bottom: 200px;
+    right: 365px;
+}
+.time-container span{
+ font-size:3em;
+}
+.time-units {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-unit {
+    padding: 5px;
+    margin: 0px 0px 50px 0px;
+    color: #747474;
+}
+
+.start{
+    padding: 5px 25px;
+    margin: 0px 10px;
+    border-radius: 2px;
+   color: #009688;
+    background-color: white;
+    border: 2px solid #009688;
+}
+.reset{
+    padding: 5px 25px;
+    margin: 0px 10px;
+    border-radius: 2px;
+    background-color: white;
+    border: 2px solid black;
+}
